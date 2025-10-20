@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="App Shell PWA - Tienda de Productos">
+    <meta name="theme-color" content="#2196F3">
+    <title>Actividad 3 - Prueba de App Shell</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span>Prueba de App Shell</span>
+            </div>
+            <div id="statusIndicator" class="status-indicator">
+                <span class="status-dot"></span>
+                <span id="statusText">En línea</span>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="nav-content" id="navMenu">
+            <a href="#" class="active" onclick="loadContent('productos', event)">Productos</a>
+            <a href="#" onclick="loadContent('ofertas', event)">Ofertas</a>
+            <a href="#" onclick="loadContent('novedades', event)">Novedades</a>
+            <a href="#" onclick="loadContent('contacto', event)">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div id="mainContent">
+            <h1>Nuestros Productos</h1>
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Cargando productos...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Tu tienda PWA favorita. Compra online con la mejor experiencia, incluso sin conexión.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <p><a href="#">Términos y Condiciones</a></p>
+                <p><a href="#">Política de Privacidad</a></p>
+                <p><a href="#">Preguntas Frecuentes</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>info@mitiendapwa.com</p>
+                <p>+52 123 456 7890</p>
+                <p>Ciudad de México, México</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mi Tienda PWA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+{
+  "name": "Actividad 3 - Prueba de App Shell PWA",
+  "short_name": "AppShellPWA",
+  "description": "Progressive Web App de tienda online con funcionalidad offline - Actividad 3",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='80' fill='white' text-anchor='middle' x='50'>🛍️</text></svg>",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='80' fill='white' text-anchor='middle' x='50'>🛍️</text></svg>",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='80' fill='white' text-anchor='middle' x='50'>🛍️</text></svg>",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='80' fill='white' text-anchor='middle' x='50'>🛍️</text></svg>",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='80' fill='white' text-anchor='middle' x='50'>🛍️</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='80' fill='white' text-anchor='middle' x='50'>🛍️</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "shopping",
+    "business",
+    "productivity"
+  ],
+  "lang": "es-MX",
+  "dir": "ltr",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f5f5f5' width='540' height='720'/><text y='360' font-size='40' fill='%23045a71' text-anchor='middle' x='270'>Vista Principal</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "label": "Vista principal de la tienda"
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "shortcuts": [
+    {
+      "name": "Ver Productos",
+      "short_name": "Productos",
+      "description": "Ir directamente a productos",
+      "url": "/?section=productos",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='70' fill='white' text-anchor='middle' x='50'>📦</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Ofertas",
+      "short_name": "Ofertas",
+      "description": "Ver ofertas especiales",
+      "url": "/?section=ofertas",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23045a71' width='100' height='100'/><text y='75' font-size='70' fill='white' text-anchor='middle' x='50'>🏷️</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
