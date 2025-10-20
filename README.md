@@ -151,21 +151,21 @@ APP_SHELL_FILES = [
 - Soporte para iconos maskable
 
 **Características avanzadas:**
-- ✅ Shortcuts (accesos directos a secciones)
-- ✅ Share target (compartir contenido)
-- ✅ Screenshots para stores
-- ✅ Categorías definidas (shopping, business, productivity)
+- Shortcuts (accesos directos a secciones)
+- Share target (compartir contenido)
+- Screenshots para stores
+- Categorías definidas (shopping, business, productivity)
 
 ### 4. Contenido Dinámico (app.js)
 
 
 **Funcionalidades JavaScript:**
-- ✅ Registro automático del Service Worker
-- ✅ Toggle del menú móvil
-- ✅ Carga dinámica de contenido por sección
-- ✅ Renderizado del grid de productos
-- ✅ Detección de estado online/offline en tiempo real
-- ✅ Actualización visual del indicador de conexión
+- Registro automático del Service Worker
+- Toggle del menú móvil
+- Carga dinámica de contenido por sección
+- Renderizado del grid de productos
+- Detección de estado online/offline en tiempo real
+- Actualización visual del indicador de conexión
 
 
 
@@ -182,12 +182,12 @@ APP_SHELL_FILES = [
 
 2. **Verifica la estructura de archivos:**
    ```
-   ✅ index.html
-   ✅ styles.css
-   ✅ app.js
-   ✅ sw.js
-   ✅ manifest.json
-   ✅ images/ (con 6 imágenes)
+   index.html
+   styles.css
+   app.js
+   sw.js
+   manifest.json
+   images/ (con 6 imágenes)
    ```
 
 3. **Inicia un servidor local**
